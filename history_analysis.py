@@ -2,9 +2,13 @@
 # Topic: Reading and Analyzing CSV History
 
 import csv
+import sys
 
-# CSV file containing monitoring history
-csv_filename = "monitoring_results.csv"
+# Choose the CSV file from the command line, or use the default
+if len(sys.argv) > 1:
+    csv_filename = sys.argv[1]
+else:
+    csv_filename = "monitoring_results.csv"
 
 # Initialize counters and dictionaries
 total_records = 0

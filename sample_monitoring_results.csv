@@ -1,0 +1,10 @@
+Device Name,IP Address,Status,Check Time
+Main Router,192.168.0.1,Responding,2026-10-20 09:00:00
+Local Computer,127.0.0.1,Responding,2026-10-20 09:00:00
+Test Device,192.0.2.1,Timed out,2026-10-20 09:00:00
+Main Router,192.168.0.1,Responding,2026-10-20 09:05:00
+Local Computer,127.0.0.1,Responding,2026-10-20 09:05:00
+Test Device,192.0.2.1,Timed out,2026-10-20 09:05:00
+Main Router,192.168.0.1,Responding,2026-10-20 09:10:00
+Local Computer,127.0.0.1,Responding,2026-10-20 09:10:00
+Test Device,192.0.2.1,Timed out,2026-10-20 09:10:00
